@@ -1,3 +1,10 @@
+# 1.0.0 (2022-05-11)
+
+
+### Features
+
+* migrate maven section from core ([88b32fe](https://github.com/spaceship-prompt/spaceship-maven/commit/88b32fe612ea57a8ba3373ad38822094ab654a74))
+
 # 1.0.0 (2022-05-09)
 
 
