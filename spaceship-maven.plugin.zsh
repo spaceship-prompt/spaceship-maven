@@ -73,7 +73,7 @@ spaceship_maven() {
 
   [[ "$maven_version" == "$SPACESHIP_MAVEN_DEFAULT_VERSION" ]] && return
 
-  spaceship::section \
+  spaceship::section::v3 \
     "$SPACESHIP_MAVEN_COLOR" \
     "$SPACESHIP_MAVEN_PREFIX" \
     "$SPACESHIP_MAVEN_SYMBOL$maven_version" \
