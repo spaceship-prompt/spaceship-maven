@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/spaceship-prompt/spaceship-maven/compare/v1.0.0...v1.0.1) (2022-06-01)
+
+
+### Bug Fixes
+
+* specify section version ([f6e661d](https://github.com/spaceship-prompt/spaceship-maven/commit/f6e661d9333032c16d1b4bc58ce3db938c051331))
+
 # 1.0.0 (2022-05-11)
 
 
