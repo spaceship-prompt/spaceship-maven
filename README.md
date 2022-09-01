@@ -88,6 +88,26 @@ zgen load "spaceship-prompt/spaceship-maven"
 github = "spaceship-prompt/spaceship-maven"
 ```
 
+### Manual
+
+If none of the above methods works for you, you can install Spaceship manually.
+
+1. Clone this repo somewhere, for example to `$HOME/.zsh/spaceship-maven`.
+2. Source this section in your `~/.zshrc`.
+
+### Example
+
+```zsh
+mkdir -p "$HOME/.zsh"
+git clone --depth=1 https://github.com/spaceship-prompt/spaceship-maven.git "$HOME/.zsh/spaceship-maven"
+```
+
+For initializing prompt system add this to your `.zshrc`:
+
+```zsh title=".zshrc"
+source "~/.zsh/spaceship-section/spaceship-maven.plugin.zsh"
+```
+
 ## Usage
 
 After installing, add the following line to your `.zshrc` in order to include Maven section in the prompt:
